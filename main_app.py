@@ -5,7 +5,7 @@ from PIL import Image
 
 #Setting Title of App
 st.title("Image Watermarking")
-st.markdown("Upload two image")
+st.markdown("Upload two images")
 
 #Uploading the dog image
 Back_image = st.file_uploader("Choose an image to be in background")
