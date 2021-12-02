@@ -4,8 +4,8 @@ import cv2
 from PIL import Image
 
 #Setting Title of App
-st.title("Dog Breed Prediction")
-st.markdown("Upload an image of the dog")
+st.title("Image Watermarking")
+st.markdown("Upload two image")
 
 #Uploading the dog image
 Back_image = st.file_uploader("Choose an image to be in background")
